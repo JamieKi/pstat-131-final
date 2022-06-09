@@ -1,0 +1,43 @@
+  #  Attribute                     Domain
+   -- -----------------------------------------
+   1. Sample code number            id number
+   2. Clump Thickness               1 - 10
+   3. Uniformity of Cell Size       1 - 10
+   4. Uniformity of Cell Shape      1 - 10
+   5. Marginal Adhesion             1 - 10
+   6. Single Epithelial Cell Size   1 - 10
+   7. Bare Nuclei                   1 - 10
+   8. Bland Chromatin               1 - 10
+   9. Normal Nucleoli               1 - 10
+  10. Mitoses                       1 - 10
+  11. Class:                        (2 for benign, 4 for malignant)
+  
+  
+-`ID` : Sample code number
+
+-`clump_thickness` : grouping of cancer cells in multilayer
+
+-`uniformity_size`: metastasis to lymph nodes
+
+-`uniformity_shape`: cancerous cells of varying size
+
+-`marginal_adhesion` : a sign of malignancy but the cancerous cells lose this property so this retention of adhesion is an indication of malignancy
+
+-`single_epithelial_cell_sizer` : also called SECS, if the SECS become larger, then it may be a malignant cell
+
+-`bare_nuclei` : without cytoplasm coating, this is found in benign cells
+
+-`bland_chromatin` : usually found in benign cells
+
+-`normal_nucleoli` : generally very small and in benign cells
+
+-`mitoses` : the process in cell division by which the nucleus divides
+
+-`diagnosis`: two types in our machine learning project, malignant cancer cell and benign cancer cell
+ 
+
+  
+Benign : 458 (65.5%)
+Malignant : 241 (34.5%)
+Note that 0 = "benign" and 1= "malignant"
+  
