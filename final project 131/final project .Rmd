@@ -1,11 +1,11 @@
 ---
 title: "Final Project Jamie Ki"
 output:
-  pdf_document: default
   html_document:
       toc: true
       toc_float: true
       code_folding: show
+  pdf_document: default
 date: '2022-04-23'
 ---
                                                                                                                                                                                                                                                           
