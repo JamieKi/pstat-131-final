@@ -1,11 +1,11 @@
 ---
 title: "Final Project Jamie Ki"
 output:
+  pdf_document: default
   html_document:
       toc: true
       toc_float: true
       code_folding: show
-  pdf_document: default
 date: '2022-04-23'
 ---
                                                                                                                                                                                                                                                           
@@ -49,7 +49,7 @@ What is breast cancer?
 
 Breast cancer is a type of cancer that forms in the cells of the breasts. After skin cancer, breast cancer is the most common cancer diagnosed in women in the United States. This cancer causes a huge number of deaths every year. Therefore, in this machine learning project, we will use classification and data mining methods to classify which type of cancer the patient has. This will make it easier for doctors to provide the correct treatment and treat patients on time for their survival.
 
-![Fig. 1: Breast Cancer](final project 131/image/bcancer.png){width="300"}
+![Fig. 1: Breast Cancer](image/bcancer.png){width="300"}
 
 
 
@@ -60,7 +60,7 @@ In this machine learning project, we will analyze and classify the Breast Cancer
 
 Basically, there are two types of breast cancer we will be considering in this project : malignant type breast cancer and benign type breast cancer. Malignant indicates the presence of cancer cells whereas benign indicates the absence of cancer cells. In medical analysis, malignant would represent a positive result whereas benign would represent a negative result.
 
-![Fig. 2: Malignant vs. Benign](final project 131/image/mb.png){width="500"}
+![Fig. 2: Malignant vs. Benign](image/mb.png){width="500"}
 
 
 So the main goal for our project is to create a model to correctly classify whether the Breast Cancer is a malignant or benign type with the help of a data set.
